@@ -1,0 +1,18 @@
+
+<!-- Painel de Login -->
+<button id="login-btn" onclick="login()">Login para Editar</button>
+<div id="editor-form">
+  <h3>Editar Card</h3>
+  <label>Título:</label>
+  <input type="text" id="edit-title" />
+  <label>Texto:</label>
+  <textarea id="edit-text" rows="3"></textarea>
+  <label>Imagem (URL):</label>
+  <input type="text" id="edit-img" />
+  <div style="text-align: right;">
+    <button onclick="saveCardEdits()">💾 Salvar</button>
+    <button onclick="cancelEdit()">Cancelar</button>
+    <button onclick="resetEdits()">♻️ Resetar</button>
+  </div>
+</div>
+</body>

@@ -1,0 +1,51 @@
+
+/* Painel de edição aprimorado */
+#editor-form {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  z-index: 1000;
+  max-width: 300px;
+  display: none;
+}
+
+#editor-form input, #editor-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#editor-form button {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 6px 12px;
+}
+
+.edit-btn {
+  margin-top: 8px;
+  background-color: #f47e60;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#login-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #f47e60;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
